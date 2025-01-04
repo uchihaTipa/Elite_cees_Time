@@ -13,3 +13,4 @@ velocity = st.number_input("Masukkan kecepatan aliran (m/s):", value=0.0)
 if st.button("Hitung Debit Air"):
     debit_air = area * velocity
     st.write(f"Debit air: {debit_air} m³/s")
+ 
